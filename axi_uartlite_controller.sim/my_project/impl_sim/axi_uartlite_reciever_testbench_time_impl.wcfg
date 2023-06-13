@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="axi_uartlite_reciever_testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_uartlite_reciever_testbench" />
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lib_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1,003,804.500 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,004,064.001 ns"></ZoomEndTime>
+      <Cursor1Time time="1,003,935.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="218"></NameColumnWidth>
+      <ValueColumnWidth column_width="84"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="31" />
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/BIT_CYC" type="array">
+      <obj_property name="ElementShortName">BIT_CYC[63:0]</obj_property>
+      <obj_property name="ObjectShortName">BIT_CYC[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/rx" type="logic">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/tx" type="logic">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/data" type="array">
+      <obj_property name="ElementShortName">data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/r_bit_count" type="array">
+      <obj_property name="ElementShortName">r_bit_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_bit_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/r_data_count" type="array">
+      <obj_property name="ElementShortName">r_data_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_data_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/s_flag" type="logic">
+      <obj_property name="ElementShortName">s_flag</obj_property>
+      <obj_property name="ObjectShortName">s_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/s_data_count" type="array">
+      <obj_property name="ElementShortName">s_data_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_data_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/RATE" type="array">
+      <obj_property name="ElementShortName">RATE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RATE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/DATA_SIZE" type="array">
+      <obj_property name="ElementShortName">DATA_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/DATA_NUM" type="array">
+      <obj_property name="ElementShortName">DATA_NUM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_NUM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/core_system/addr_bus" type="array">
+      <obj_property name="ElementShortName">addr_bus[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_bus[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/core_system/rdata_bus" type="array">
+      <obj_property name="ElementShortName">rdata_bus[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata_bus[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/core_system/wdata_bus" type="array">
+      <obj_property name="ElementShortName">wdata_bus[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata_bus[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/core_system/cmd_wire" type="array">
+      <obj_property name="ElementShortName">cmd_wire[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd_wire[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/core_system/state_wire" type="array">
+      <obj_property name="ElementShortName">state_wire[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state_wire[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/core_system/we_wire" type="logic">
+      <obj_property name="ElementShortName">we_wire</obj_property>
+      <obj_property name="ObjectShortName">we_wire</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/core_system/ce_wire" type="logic">
+      <obj_property name="ElementShortName">ce_wire</obj_property>
+      <obj_property name="ObjectShortName">ce_wire</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/core_system/axi_uartlite_controler/awvalid" type="logic">
+      <obj_property name="ElementShortName">awvalid</obj_property>
+      <obj_property name="ObjectShortName">awvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/core_system/axi_uartlite_controler/awready" type="logic">
+      <obj_property name="ElementShortName">awready</obj_property>
+      <obj_property name="ObjectShortName">awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/core_system/axi_uartlite_controler/wvalid" type="logic">
+      <obj_property name="ElementShortName">wvalid</obj_property>
+      <obj_property name="ObjectShortName">wvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/core_system/axi_uartlite_controler/wready" type="logic">
+      <obj_property name="ElementShortName">wready</obj_property>
+      <obj_property name="ObjectShortName">wready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/core_system/axi_uartlite_controler/arvalid" type="logic">
+      <obj_property name="ElementShortName">arvalid</obj_property>
+      <obj_property name="ObjectShortName">arvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/core_system/axi_uartlite_controler/arready" type="logic">
+      <obj_property name="ElementShortName">arready</obj_property>
+      <obj_property name="ObjectShortName">arready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/core_system/axi_uartlite_controler/rvalid" type="logic">
+      <obj_property name="ElementShortName">rvalid</obj_property>
+      <obj_property name="ObjectShortName">rvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/core_system/axi_uartlite_controler/rready" type="logic">
+      <obj_property name="ElementShortName">rready</obj_property>
+      <obj_property name="ObjectShortName">rready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/core_system/cpu_side_io_controller/CMD" type="array">
+      <obj_property name="ElementShortName">CMD[1:0]</obj_property>
+      <obj_property name="ObjectShortName">CMD[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/core_system/axi_uartlite_controler/uart/s_axi_rdata" type="array">
+      <obj_property name="ElementShortName">s_axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_rdata[31:0]</obj_property>
+   </wvobject>
+</wave_config>
